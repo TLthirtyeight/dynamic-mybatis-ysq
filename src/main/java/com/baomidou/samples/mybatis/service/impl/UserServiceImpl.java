@@ -3,6 +3,7 @@ package com.baomidou.samples.mybatis.service.impl;
 import com.baomidou.samples.mybatis.entity.User;
 import com.baomidou.samples.mybatis.mapper.UserMapper;
 import com.baomidou.samples.mybatis.service.UserService;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
  * @Description: ${description}
  * @Date: 2020/11/14 0:11
  */
+@Service
 public class UserServiceImpl implements UserService {
 
 

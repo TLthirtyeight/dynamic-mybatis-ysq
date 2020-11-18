@@ -11,7 +11,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  * @Date: 2020/11/13 23:39
  */
 @SpringBootApplication
-@MapperScan("com.baomidou.samples.mytabis.mapper")
+@MapperScan("com.baomidou.samples.mybatis.mapper")
 public class Application {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);

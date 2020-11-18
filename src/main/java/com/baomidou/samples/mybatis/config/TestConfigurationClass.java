@@ -1,6 +1,7 @@
 package com.baomidou.samples.mybatis.config;
 
 
+import com.baomidou.samples.mybatis.foo.Foo1;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
